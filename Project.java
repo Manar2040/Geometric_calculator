@@ -7,7 +7,7 @@ import java.awt.Component;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+/*********shapes**************************************/
 class GeometricObject {
 
     double calculateArea() {
@@ -59,7 +59,7 @@ class Circle extends GeometricObject {
         return 2 * Math.PI * radius;
     }
 }
-
+/********* GUI Implementation **************************************/
 public class Project {
 
 
